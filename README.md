@@ -7,7 +7,7 @@
 > server repo 的逐位元組複製；改這裡只會讓兩邊的簽章協定不一致，而症狀是
 > 「有時候 401」這種極難追的失敗。要改請改 server repo 再重新產生。
 
-- 產生自 server repo commit `b4f99cc`
+- 產生自 server repo commit `41e0007`
 - 簽章協定版本 `knowledge-sig-v1`
 - backend：**由你自己填**。下面範例裡的 `https://knowledge.example.com` 是佔位字串，換成你的實際端點。
 
