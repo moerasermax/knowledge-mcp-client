@@ -1,0 +1,6 @@
+# knowledge-client 只需要這三個，總共約 30-50 MB。
+# 特別注意：**不需要** torch / sentence-transformers / bge-m3 模型（約 5.5 GB）——
+# 向量都在 server 端算，client 只是簽章後送 HTTP。
+mcp>=1.0,<2
+httpx
+cryptography>=42
